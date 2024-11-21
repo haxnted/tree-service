@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\TreeService.Contracts\TreeService.Contracts.csproj"/>
+        <ProjectReference Include="..\TreeService.Domain\TreeService.Domain.csproj"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.8"/>
+        <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="8.0.0"/>
+        <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.5.1"/>
+        <PackageReference Include="Scrutor.AspNetCore" Version="3.3.0"/>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Features\Commands\" />
+    </ItemGroup>
+
+</Project>

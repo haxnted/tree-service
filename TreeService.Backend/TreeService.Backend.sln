@@ -1,0 +1,69 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreeService.API", "src\TreeService.API\TreeService.API.csproj", "{917C56F5-E887-4E6E-B73A-BF494F960891}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{25C49AEC-8268-49B9-ACCC-395032B953EF}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreeService.Domain", "src\TreeService.Domain\TreeService.Domain.csproj", "{51A19ACE-9CBF-4EC8-97E9-255CE7B27C18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreeService.Application", "src\TreeService.Application\TreeService.Application.csproj", "{B7E13979-F572-4ADC-9E97-D446B673E53B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreeService.Infrastructure", "src\TreeService.Infrastructure\TreeService.Infrastructure.csproj", "{8E184102-3FE3-457D-8D93-87175CEB2188}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreeService.Contracts", "src\TreeService.Contracts\TreeService.Contracts.csproj", "{7247C16E-EEE0-426D-8AD8-451B4186BD9E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{8D71219B-1E20-4E49-943E-77CE3E49BDB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreeService.Domain.Tests", "TreeService.Domain.Tests\TreeService.Domain.Tests.csproj", "{44CD9193-42C1-4435-9B3C-D74AE66CB61C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreeService.Application.Tests", "src\TreeService.Application.Tests\TreeService.Application.Tests.csproj", "{8B486C88-090E-45F5-858E-6159FABC9C52}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{917C56F5-E887-4E6E-B73A-BF494F960891}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{917C56F5-E887-4E6E-B73A-BF494F960891}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{917C56F5-E887-4E6E-B73A-BF494F960891}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{917C56F5-E887-4E6E-B73A-BF494F960891}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51A19ACE-9CBF-4EC8-97E9-255CE7B27C18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51A19ACE-9CBF-4EC8-97E9-255CE7B27C18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51A19ACE-9CBF-4EC8-97E9-255CE7B27C18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51A19ACE-9CBF-4EC8-97E9-255CE7B27C18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7E13979-F572-4ADC-9E97-D446B673E53B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7E13979-F572-4ADC-9E97-D446B673E53B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7E13979-F572-4ADC-9E97-D446B673E53B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7E13979-F572-4ADC-9E97-D446B673E53B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E184102-3FE3-457D-8D93-87175CEB2188}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E184102-3FE3-457D-8D93-87175CEB2188}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E184102-3FE3-457D-8D93-87175CEB2188}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E184102-3FE3-457D-8D93-87175CEB2188}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7247C16E-EEE0-426D-8AD8-451B4186BD9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7247C16E-EEE0-426D-8AD8-451B4186BD9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7247C16E-EEE0-426D-8AD8-451B4186BD9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7247C16E-EEE0-426D-8AD8-451B4186BD9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44CD9193-42C1-4435-9B3C-D74AE66CB61C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44CD9193-42C1-4435-9B3C-D74AE66CB61C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44CD9193-42C1-4435-9B3C-D74AE66CB61C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44CD9193-42C1-4435-9B3C-D74AE66CB61C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B486C88-090E-45F5-858E-6159FABC9C52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B486C88-090E-45F5-858E-6159FABC9C52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B486C88-090E-45F5-858E-6159FABC9C52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B486C88-090E-45F5-858E-6159FABC9C52}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{44CD9193-42C1-4435-9B3C-D74AE66CB61C} = {8D71219B-1E20-4E49-943E-77CE3E49BDB7}
+		{8B486C88-090E-45F5-858E-6159FABC9C52} = {8D71219B-1E20-4E49-943E-77CE3E49BDB7}
+	EndGlobalSection
+EndGlobal
