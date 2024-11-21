@@ -7,3 +7,6 @@
 Проект построен на Clean Arhitecture + немного DDD, CQRS, Result-pattern + custom error 
 Покрыл команды юнит тестами. Протестировать эндпоинты можно через swagger.
 
+Был добавлен фронтенд. react+ts+tailwind+materialui
+![image](https://github.com/user-attachments/assets/77e44136-e80b-4359-b509-57ef5f58a253)
+![image](https://github.com/user-attachments/assets/35a59ab6-6f49-487c-a87a-6bbd033496ce)
